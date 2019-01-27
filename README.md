@@ -37,3 +37,11 @@ Here is an example of using the grid, for a 3 column layout:
     </div>
 </div>
 ```
+
+## My Notes
+
+gatsby develop
+gatsby build
+amplify init (once)
+amplify add hosting (once, will also create bucket on publish)
+amplify publish

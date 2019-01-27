@@ -4,12 +4,13 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
 
-import pic01 from '../assets/images/pic01.jpg'
-import pic02 from '../assets/images/pic02.jpg'
-import pic03 from '../assets/images/pic03.jpg'
-import pic04 from '../assets/images/pic04.jpg'
-import pic05 from '../assets/images/pic05.jpg'
-import pic06 from '../assets/images/pic06.jpg'
+import education from '../assets/images/education.jpg'
+import certsandexams from '../assets/images/certsandexams.jpg'
+import projects from '../assets/images/projects.jpg'
+import experience from '../assets/images/experience.jpg'
+import inventions from '../assets/images/inventions.jpg'
+import interests from '../assets/images/interests.jpg'
+
 
 class HomeIndex extends React.Component {
     render() {
@@ -17,10 +18,10 @@ class HomeIndex extends React.Component {
         return (
             <Layout>
                 <Helmet
-                    title="Gatsby Starter - Forty"
+                    title="Michael Moritz"
                     meta={[
-                        { name: 'description', content: 'Sample' },
-                        { name: 'keywords', content: 'sample, something' },
+                        { name: 'description', content: 'Michael Moritz' },
+                        { name: 'keywords', content: 'comcast, ip video, aws, program management, director, software' },
                     ]}
                 >
                 </Helmet>
@@ -29,59 +30,60 @@ class HomeIndex extends React.Component {
 
                 <div id="main">
                     <section id="one" className="tiles">
-                        <article style={{backgroundImage: `url(${pic01})`}}>
+                        <article style={{backgroundImage: `url(${education})`}}>
                             <header className="major">
-                                <h3>Aliquam</h3>
-                                <p>Ipsum dolor sit amet</p>
+                                <h3>Education</h3>
+                                <p>B.S. Chemical engineering</p>
+                                <p>Minors: Math, Biochemical engineering</p>
+                                <p>&nbsp;</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/education" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic02})`}}>
+                        <article style={{backgroundImage: `url(${experience})`}}>
                             <header className="major">
-                                <h3>Tempus</h3>
-                                <p>feugiat amet tempus</p>
+                                <h3>Professsional Experience</h3>
+                                <p>W.L. Gore PharmBIO</p>
+                                <p>Danaher Medical Imaging</p>
+                                <p>Comcast IP Video</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/experience" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic03})`}}>
+                        <article style={{backgroundImage: `url(${inventions})`}}>
                             <header className="major">
-                                <h3>Magna</h3>
-                                <p>Lorem etiam nullam</p>
+                                <h3>Patents</h3>
+                                <p>Prefilled Syringe for Low Protein Aggregation</p>
+                                <p>Reducing Friction Between Syringe Components</p>
+                                <p>Fluoropolymer Barrier Materials</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/patents" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic04})`}}>
+                        <article style={{backgroundImage: `url(${certsandexams})`}}>
                             <header className="major">
-                                <h3>Ipsum</h3>
-                                <p>Nisl sed aliquam</p>
+                                <h3>Certifications and Exams</h3>
+                                <p>AWS Certification</p>
+                                <p>Fundamentals of Engineering Exam</p>
+                                <p>CFA Level 1 Exam</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/certsandexams" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic05})`}}>
+                        <article style={{backgroundImage: `url(${projects})`}}>
                             <header className="major">
-                                <h3>Consequat</h3>
-                                <p>Ipsum dolor sit amet</p>
+                                <h3>Personal Projects</h3>
+                                <p>Healthweb</p>
+                                <p>LiftSmart</p>
+                                <p>Wibsie</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/projects" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic06})`}}>
+                        <article style={{backgroundImage: `url(${interests})`}}>
                             <header className="major">
-                                <h3>Etiam</h3>
-                                <p>Feugiat amet tempus</p>
+                                <h3>Interests</h3>
+                                <p>Rock climbing</p>
+                                <p>Plant-based cooking</p>
+                                <p>&nbsp;</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/interests" className="link primary"></Link>
                         </article>
-                    </section>
-                    <section id="two">
-                        <div className="inner">
-                            <header className="major">
-                                <h2>Massa libero</h2>
-                            </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
-                            <ul className="actions">
-                                <li><Link to="/landing" className="button next">Get Started</Link></li>
-                            </ul>
-                        </div>
                     </section>
                 </div>
 

@@ -1,0 +1,32 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "mpmoritzgatsby-20190126213159-authRole",
+			"UnauthRoleArn": "arn:aws:iam::530583866435:role/mpmoritzgatsby-20190126213159-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::530583866435:role/mpmoritzgatsby-20190126213159-authRole",
+			"Region": "us-east-1",
+			"DeploymentBucketName": "mpmoritzgatsby-20190126213159-deployment",
+			"UnauthRoleName": "mpmoritzgatsby-20190126213159-unauthRole",
+			"StackName": "mpmoritzgatsby-20190126213159",
+			"StackId": "arn:aws:cloudformation:us-east-1:530583866435:stack/mpmoritzgatsby-20190126213159/b92561a0-21db-11e9-8e69-0e3e6f4b77b8"
+		}
+	},
+	"hosting": {
+		"S3AndCloudFront": {
+			"service": "S3AndCloudFront",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/mpmoritzgatsby-20190126213159-deployment/amplify-cfn-templates/hosting/template.json",
+				"logicalId": "hostingS3AndCloudFront"
+			},
+			"lastPushTimeStamp": "2019-01-27T02:40:37.487Z",
+			"output": {
+				"S3BucketSecureURL": "https://michaelmoritz.io.s3.amazonaws.com",
+				"WebsiteURL": "http://michaelmoritz.io.s3-website-us-east-1.amazonaws.com",
+				"Region": "us-east-1",
+				"HostingBucketName": "michaelmoritz.io"
+			},
+			"lastPushDirHash": "ZOZ/1NJzwNJpgq641Kx8hNN9teo="
+		}
+	}
+}
