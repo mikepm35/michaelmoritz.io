@@ -34,7 +34,7 @@ const Landing = (props) => (
             </section>
             <section id="two" className="spotlights">
                 <section>
-                    <img src={comcast} alt="" />
+                    <img src={comcast} alt="" className="image"/>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
@@ -52,7 +52,7 @@ const Landing = (props) => (
                     </div>
                 </section>
                 <section>
-                    <img src={dexis} alt="" />
+                    <img src={dexis} alt="" className="image"/>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
@@ -69,13 +69,13 @@ const Landing = (props) => (
                     </div>
                 </section>
                 <section>
-                    <img src={gore} alt="" />
+                    <img src={gore} alt="" className="image"/>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
                                 <h3>W.L. Gore - PharmBIO</h3>
                             </header>
-                            <h4>Lead Engineering - New Product Development<br />
+                            <h4>Lead Engineer - New Product Development<br />
                             Jun 2007 - Jun 2014</h4>
                             <ul>
                               <li>Co-inventor of novel prefilled injector component to reduce aggregation of sensitive biologic drugs</li>
@@ -88,7 +88,7 @@ const Landing = (props) => (
                     </div>
                 </section>
                 <section>
-                    <img src={elsicon} alt="" />
+                    <img src={elsicon} alt="" className="image"/>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
@@ -103,7 +103,7 @@ const Landing = (props) => (
                     </div>
                 </section>
                 <section>
-                    <img src={invensys} alt="" />
+                    <img src={invensys} alt="" className="image"/>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
@@ -118,7 +118,7 @@ const Landing = (props) => (
                     </div>
                 </section>
                 <section>
-                    <img src={ud} alt="" />
+                    <img src={ud} alt="" className="image"/>
                     <div className="content">
                         <div className="inner">
                             <header className="major">

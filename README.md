@@ -45,3 +45,4 @@ gatsby build
 amplify init (once)
 amplify add hosting (once, will also create bucket on publish)
 amplify publish
+yarn add <package>

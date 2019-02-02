@@ -20,7 +20,7 @@ const Landing = (props) => (
         <div id="main">
             <section id="two" className="spotlights">
                 <section>
-                    <img src={rockclimbing} alt="" />
+                    <img src={rockclimbing} alt="" className="image"/>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
@@ -32,7 +32,7 @@ const Landing = (props) => (
                     </div>
                 </section>
                 <section>
-                    <img src={cooking} alt="" />
+                    <img src={cooking} alt="" className="image"/>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
@@ -44,7 +44,7 @@ const Landing = (props) => (
                     </div>
                 </section>
                 <section>
-                    <img src={biking} alt="" />
+                    <img src={biking} alt="" className="image"/>
                     <div className="content">
                         <div className="inner">
                             <header className="major">

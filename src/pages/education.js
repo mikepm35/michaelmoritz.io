@@ -24,7 +24,7 @@ const Generic = (props) => (
                     </ul>
                     <h4>Research Assistant to Dr. Prasad Dhurjati</h4>
                     <ul>
-                        <li>Converteda gene expression pattern simulator from Java to Matlab, and refined PDE models.</li>
+                        <li>Converted a gene expression pattern simulator from Java to Matlab, and refined PDE models.</li>
                     </ul>
                     <h4>Research Assistant to Dr. Abraham Lenhoff</h4>
                     <ul>

@@ -29,7 +29,7 @@ const Landing = (props) => (
             </section>
             <section id="two" className="spotlights">
                 <section>
-                    <img src={wibsie} alt="" />
+                    <img src={wibsie} alt="" className="image"/>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
@@ -46,7 +46,7 @@ const Landing = (props) => (
                     </div>
                 </section>
                 <section>
-                    <img src={liftsmart} alt="" />
+                    <img src={liftsmart} alt="" className="image"/>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
@@ -65,7 +65,7 @@ const Landing = (props) => (
                     </div>
                 </section>
                 <section>
-                    <img src={healthweb} alt="" />
+                    <img src={healthweb} alt="" className="image"/>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
@@ -82,7 +82,7 @@ const Landing = (props) => (
                     </div>
                 </section>
                 <section>
-                    <img src={mysite} alt="" />
+                    <img src={mysite} alt="" className="image"/>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
