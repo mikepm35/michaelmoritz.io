@@ -1,6 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
+import ReactGA from 'react-ga';
+
 import '../assets/scss/main.scss'
 import Header from './Header'
 import Menu from './Menu'
@@ -18,6 +20,9 @@ class Layout extends React.Component {
     }
 
     componentDidMount () {
+        ReactGA.initialize('UA-83381272-5');
+        ReactGA.pageview(window.location.pathname);
+
         this.timeoutId = setTimeout(() => {
             this.setState({loading: ''});
         }, 100);
