@@ -9,6 +9,11 @@ yarn.lock
 /public
 .DS_Store
 
+# Images
+/src/assets/images/*.jpg
+/src/assets/images/*.png
+/src/assets/images/*.sketch
+
 #awsamplifyjs
 aws-info.json
 aws-exports.*
