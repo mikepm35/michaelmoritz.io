@@ -19,14 +19,6 @@ const Landing = (props) => (
         <BannerProjects />
 
         <div id="main">
-            <section id="one">
-                <div className="inner">
-                    <header className="major">
-                        <h2>Background</h2>
-                    </header>
-                    <p>As my career moved further into software development I wanted to find ways to learn new technologies, and explore ideas, which led me to building a few personal projects.</p>
-                </div>
-            </section>
             <section id="two" className="spotlights">
                 <section>
                     <img src={wibsie} alt="" className="image"/>

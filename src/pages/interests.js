@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerInterests from '../components/BannerInterests'
 
+import article from '../assets/images/article.png'
 import rockclimbing from '../assets/images/rockclimbing.jpg'
 import cooking from '../assets/images/cooking.jpg'
 import biking from '../assets/images/biking.jpg'
@@ -19,6 +20,23 @@ const Landing = (props) => (
 
         <div id="main">
             <section id="two" className="spotlights">
+                <section>
+                    <img src={article} alt="" className="image"/>
+                    <div className="content">
+                        <div className="inner">
+                            <header className="major">
+                                <h3>Medium Articles</h3>
+                            </header>
+                            <p>
+                            <ul>
+                              <li><a href="https://medium.com/@mike.p.moritz/running-tensorflow-on-aws-lambda-using-serverless-5acf20e00033?source=friends_link&sk=53d2efa72acb277cddf5030362281796">Running TensorFlow on AWS Lambda using Serverless</a></li>
+                              <li><a href="https://medium.com/@mike.p.moritz/using-docker-compose-to-deploy-a-lightweight-python-rest-api-with-a-job-queue-37e6072a209b?source=friends_link&sk=cb3f76a59c38f5c0919c40b0e5f011f2">Using Docker Compose to deploy a lightweight Python REST API with a job queue</a></li>
+                              <li><a href="https://medium.com/@mike.p.moritz/using-apache-zeppelin-with-sql-server-d1964207ac5e?source=friends_link&sk=5db9a5d4ad3d2c0f4bed4f8ee2076f22">Using Apache Zeppelin with SQL Server</a></li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+                </section>
                 <section>
                     <img src={rockclimbing} alt="" className="image"/>
                     <div className="content">
