@@ -21,6 +21,7 @@ const Generic = (props) => (
                     <ul>
                       <li>Certified Cloud Practitioner (2019)</li>
                     </ul>
+                    <h4>GRE (2019): Math 167/170, Verbal 167/170</h4>
                     <h4>PE Fundamentals of Engineering Exam (Pass)</h4>
                     <h4>Certified Financial Analyst Level 1 Exam (Pass)</h4>
                 </div>

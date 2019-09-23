@@ -29,6 +29,7 @@ const Landing = (props) => (
                             </header>
                             <p>
                             <ul>
+                              <li><a href="https://medium.com/@mike.p.moritz/keras-hyperparameter-optimization-on-aws-cbd494a7ea15?source=friends_link&sk=fb831dda0c462c355f699ba4c68a0c17">Keras Hyperparameter Optimization in the Cloud</a></li>
                               <li><a href="https://medium.com/@mike.p.moritz/running-tensorflow-on-aws-lambda-using-serverless-5acf20e00033?source=friends_link&sk=53d2efa72acb277cddf5030362281796">Running TensorFlow on AWS Lambda using Serverless</a></li>
                               <li><a href="https://medium.com/@mike.p.moritz/using-docker-compose-to-deploy-a-lightweight-python-rest-api-with-a-job-queue-37e6072a209b?source=friends_link&sk=cb3f76a59c38f5c0919c40b0e5f011f2">Using Docker Compose to deploy a lightweight Python REST API with a job queue</a></li>
                               <li><a href="https://medium.com/@mike.p.moritz/using-apache-zeppelin-with-sql-server-d1964207ac5e?source=friends_link&sk=5db9a5d4ad3d2c0f4bed4f8ee2076f22">Using Apache Zeppelin with SQL Server</a></li>

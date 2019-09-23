@@ -27,9 +27,9 @@ const Landing = (props) => (
                     <header className="major">
                         <h2>Background</h2>
                     </header>
-                    <p>My professional career started as an engineer developing products mostly leveraging materials science for the pharmaceutical industry.
+                    <p>My professional career started as an engineer developing products for the pharmaceutical industry by leveraging materials science.
                     In looking for more diverse opportunities, I entered the medical imaging field which renewed my interest in software development that started in college.
-                    Further building on this, Comcast offered an opportunity to manage programs that are delivering cutting edge IP video technology at massive scale.</p>
+                    Further building on this, Comcast offered an opportunity to drive programs that are delivering cutting edge IP video technology at massive scale.</p>
                 </div>
             </section>
             <section id="two" className="spotlights">

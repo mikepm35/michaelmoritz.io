@@ -18,8 +18,8 @@ const Generic = (props) => (
                         <h1>Patents</h1>
                     </header>
                     <ul>
-                      <li><b>US20120251748</b> - Fluoropolymer Barrier Materials for Containers</li>
-                      <li><b>US20120260607</b> - Method of Reducing Friction Between Syringe Components</li>
+                      <li><b>US9597458</b> - Fluoropolymer Barrier Materials for Containers</li>
+                      <li><b>US9539394</b> - Method of Reducing Friction Between Syringe Components</li>
                       <li><b>US8722178</b> - Prefilled Syringe for Low Protein Aggregation</li>
                     </ul>
                 </div>

@@ -20,7 +20,7 @@ const Generic = (props) => (
                     <h2 id="content">University of Delaware - B.S. Chemical Engineering</h2>
                     <h4>Minors</h4>
                     <ul>
-                      <li>Mathematics, Biochemical Engineering, and Chemistry</li>
+                      <li>Mathematics and Biochemical Engineering</li>
                     </ul>
                     <h4>Research Assistant to Dr. Prasad Dhurjati</h4>
                     <ul>
@@ -29,6 +29,14 @@ const Generic = (props) => (
                     <h4>Research Assistant to Dr. Abraham Lenhoff</h4>
                     <ul>
                         <li>Designed and executed protein crystallization experiments to determine thermodynamically and kinetically driven phase boundariesfor glucose isomerase.</li>
+                    </ul>
+                                                            
+                    <h2 id="content" style={{paddingTop: 20}}>Online coursework</h2>
+                    <ul>
+                      <li>2019: Algorithms I - Princeton (Robert Sedgewick) - Coursera</li>
+                      <li>2019: Software Development Fundamentals - Univ. of Penn. - EdX</li>
+                      <li>2019: Data Structures and Software Design - Univ. of Penn. - EdX</li>
+                      <li>2019: Programming for the Web with JavaScript - Univ. of Penn. - EdX</li>
                     </ul>
                 </div>
             </section>
