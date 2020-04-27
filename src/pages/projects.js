@@ -31,8 +31,8 @@ const Landing = (props) => (
                             <p>This application is built using Python and Node.js in AWS Lambda, AWS DynamoDB, and React Native.
                             Machine Learning models are built in TensorFlow, and adapt as a user labels results.</p>
                             <ul className="actions">
-                                <li><Link to="https://itunes.apple.com/us/app/wibsie/id1432217892?ls=1&mt=8" className="button">App Store</Link></li>
-                                <li><Link to="http://www.wibsie.com/" className="button">Website</Link></li>
+                                <li><a href="https://itunes.apple.com/us/app/wibsie/id1432217892?ls=1&mt=8" className="button">App Store</a></li>
+                                <li><a href="http://www.wibsie.com/" className="button">Website</a></li>
                             </ul>
                         </div>
                     </div>
@@ -49,8 +49,8 @@ const Landing = (props) => (
                             The app organizes exercises by body group, and inserts a popular YouTube video for instruction.</p>
                             <ul className="actions">
                             <ul className="actions">
-                                <li><Link to="https://itunes.apple.com/us/app/liftsmart/id1173358571?ls=1&mt=8" className="button">App Store</Link></li>
-                                <li><Link to="https://www.liftsmartapp.com/" className="button">Website</Link></li>
+                                <li><a href="https://itunes.apple.com/us/app/liftsmart/id1173358571?ls=1&mt=8" className="button">App Store</a></li>
+                                <li><a href="https://www.liftsmartapp.com/" className="button">Website</a></li>
                             </ul>
                             </ul>
                         </div>
@@ -68,7 +68,7 @@ const Landing = (props) => (
                             The app lays out a concept for organizing information, and sharing with family and medical staff.
                             It also allows for storage of documents and images, plus has an integrated CT viewed.</p>
                             <ul className="actions">
-                                <li><Link to="http://healthweb.mpmoritz.com/" className="button">View Demo</Link></li>
+                                <li><a href="http://healthweb.mpmoritz.com/" className="button">View Demo</a></li>
                             </ul>
                         </div>
                     </div>

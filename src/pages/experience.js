@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerExperience from '../components/BannerExperience'
 
+import vertex from '../assets/images/vertex.png'
 import comcast from '../assets/images/comcast.jpg'
 import dexis from '../assets/images/dexis.jpg'
 import gore from '../assets/images/gore.jpg'
@@ -28,11 +29,28 @@ const Landing = (props) => (
                         <h2>Background</h2>
                     </header>
                     <p>My professional career started as an engineer developing products for the pharmaceutical industry by leveraging materials science.
-                    In looking for more diverse opportunities, I entered the medical imaging field which renewed my interest in software development that started in college.
-                    Further building on this, Comcast offered an opportunity to drive programs that are delivering cutting edge IP video technology at massive scale.</p>
+                    In looking for more diverse opportunities, I entered the medical imaging field which renewed my interest in software development.
+                    Further building on this, at Comcast I was able to drive programs that delivered cutting edge IP video technology at massive scale,
+                    and now I develop advanced analysis platforms at Vertex.</p>
                 </div>
             </section>
             <section id="two" className="spotlights">
+              <section>
+                  <img src={vertex} alt="" className="image"/>
+                  <div className="content">
+                      <div className="inner">
+                          <header className="major">
+                              <h3>Vertex</h3>
+                          </header>
+                          <h4>Software Development<br />
+                          Nov 2020 - Present</h4>
+                          <ul>
+                            <li>Building a next-generation intellegence platform</li>
+                            <li>Creating custom large-scale data storage and analysis tools</li>
+                          </ul>
+                      </div>
+                  </div>
+              </section>
                 <section>
                     <img src={comcast} alt="" className="image"/>
                     <div className="content">
@@ -41,7 +59,7 @@ const Landing = (props) => (
                                 <h3>Comcast - IP Video</h3>
                             </header>
                             <h4>Senior Director - Program Delivery<br />
-                            Mar 2016 - Present</h4>
+                            Mar 2016 - Nov 2020</h4>
                             <ul>
                               <li>Managing team of 15 in Denver and Philadelphia</li>
                               <li>Responsible for launching new IP Video products across multiple device platforms</li>
