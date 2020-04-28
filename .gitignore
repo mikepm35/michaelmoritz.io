@@ -8,11 +8,7 @@ yarn.lock
 # Build directory
 /public
 .DS_Store
-
-# Images
-/src/assets/images/*.jpg
-/src/assets/images/*.png
-/src/assets/images/*.sketch
+*.zip
 
 #awsamplifyjs
 aws-info.json
@@ -37,6 +33,7 @@ dist/
 node_modules/
 aws-exports.js
 awsconfiguration.json
-amplify_copy
-amplify-*
-.amplify*
+amplifyconfiguration.json
+amplify-build-config.json
+amplify-gradle-config.json
+amplifyxc.config
